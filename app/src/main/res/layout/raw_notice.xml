@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Card_Raw">
+
+    <LinearLayout
+        style="@style/ll_Horizontal"
+        android:padding="12dp">
+
+
+        <LinearLayout
+            style="@style/ll_Vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvDate"
+                style="@style/Text_12_SP"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:text="01 December 2021 10:30 AM"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                style="@style/Text_16_SP"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:maxLines="2"
+                android:text="Notice &amp; Circular title comes hereCircular title comes here Notice &amp; Circular  here testing  testinghere Notice &amp; Circular title comes here testing  testing"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tvDescription"
+                style="@style/Text_14_SP"
+                android:layout_gravity="left"
+                android:layout_marginTop="3dp"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:maxLines="3"
+                android:text="Dear Residents,This is a sample text. This is a sample text. This is a sample text. This is a sample text. This is a sample text. This is a sample text. This is a sample text. This is a sample text. This is a sample text."
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivDownload"
+            style="@style/Icon_24_DP"
+            android:layout_gravity="top" />
+
+        <ImageView
+            android:id="@+id/ivReadDot"
+            style="@style/Icon_16_DP"
+            android:layout_gravity="top"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
